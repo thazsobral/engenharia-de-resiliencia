@@ -1,0 +1,6 @@
+{
+  "name": "Engenharia da Resiliência",
+  "description": "Aplicação interativa e didática para aprender Engenharia da Resiliência e Design para Recuperação com o Barco João Bobo de Amir Klink e a Engenharia do Caos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
