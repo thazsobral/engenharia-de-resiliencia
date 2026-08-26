@@ -44,7 +44,7 @@ Abaixo está uma proposta de conteúdo para documentar essas ferramentas e um ex
 
     Uso no projeto: Indicados para simular quedas de pods, estrangulamento de CPU/memória e falhas de disco em ambientes conteinerizados.
 
-- Exemplo de [Script Auxiliar](./scripts/simular-latencia.sh)
+- Exemplo de [Script Auxiliar](./scripts/simulador-latencia.sh) e seu [par para reversão do caos](./scripts/reverter-falha.sh)
     
     Para testes locais ou em ambientes de homologação sem dependência de ferramentas complexas, você pode utilizar scripts simples de automação de rede (usando tc no Linux ou comandos Docker).
 
