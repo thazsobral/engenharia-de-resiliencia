@@ -12,8 +12,8 @@ A Engenharia de Resiliência desloca o foco da segurança baseada apenas na aus�
 
 ## 🗂️ Estrutura do Repositório
 
-* `docs/`: Artigos, notas de estudo e fundamentação teórica.
-* `exemplos/`: Cenários práticos e aplicação dos conceitos.
+* `REFERENCES.md`: Artigos, notas de estudo e fundamentação teórica.
+* `samples/`: Cenários práticos e aplicação dos conceitos.
 
 ---
 
