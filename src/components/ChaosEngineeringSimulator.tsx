@@ -194,7 +194,7 @@ export const ChaosEngineeringSimulator: React.FC = () => {
         </h2>
 
         <p className="mt-3 text-slate-600 max-w-3xl text-sm sm:text-base leading-relaxed">
-          Como a <strong>Netflix, Amazon e Google</strong> aplicam o mesmo princípio do barco de Amir Klink? Elas criaram o <em>Chaos Monkey</em>: um robô que <strong>derruba servidores de propósito</strong> no meio do dia para testar se a infraestrutura se recupera sozinha antes que o usuário final perceba qualquer travamento.
+          Como a <strong>Netflix, Amazon e Google</strong> aplicam o mesmo princípio do barco de Amyr Klink? Elas criaram o <em>Chaos Monkey</em>: um robô que <strong>derruba servidores de propósito</strong> no meio do dia para testar se a infraestrutura se recupera sozinha antes que o usuário final perceba qualquer travamento.
         </p>
 
         {/* Top Control Bar & Architecture Mode Switch */}

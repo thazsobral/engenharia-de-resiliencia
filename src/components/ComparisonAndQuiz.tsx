@@ -53,7 +53,7 @@ const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
     concept: 'História do Barco João Bobo',
-    question: 'Em uma tempestade no oceano, qual é a principal vantagem do barco "João Bobo" de Amir Klink em relação a um barco rígido tradicional?',
+    question: 'Em uma tempestade no oceano, qual é a principal vantagem do barco "João Bobo" de Amyr Klink em relação a um barco rígido tradicional?',
     options: [
       {
         id: 'a',
@@ -71,7 +71,7 @@ const QUIZ_QUESTIONS: QuizQuestion[] = [
         id: 'c',
         text: 'Ele possui motores potentes para fugir das tempestades antes que elas cheguem.',
         isCorrect: false,
-        explanation: 'Incorreto! Amir Klink fez a travessia a remo, sem motores.',
+        explanation: 'Incorreto! Amyr Klink fez a travessia a remo, sem motores.',
       },
     ],
   },

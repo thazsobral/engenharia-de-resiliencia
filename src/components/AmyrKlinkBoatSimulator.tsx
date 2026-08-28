@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { BoatType } from '../types';
 import { soundFx } from '../utils/audio';
 
-export const AmirKlinkBoatSimulator: React.FC = () => {
+export const AmyrKlinkBoatSimulator: React.FC = () => {
   const [boatType, setBoatType] = useState<BoatType>('joao_bobo');
   const [waveIntensity, setWaveIntensity] = useState<number>(3); // 1 to 5
   const [isSimulating, setIsSimulating] = useState<boolean>(false);
@@ -97,11 +97,11 @@ export const AmirKlinkBoatSimulator: React.FC = () => {
         </div>
 
         <h2 className="text-2xl sm:text-4xl font-extrabold text-sky-950 tracking-tight">
-          O Dilema de Amir Klink: O Barco "João Bobo"
+          O Dilema de Amyr Klink: O Barco "João Bobo"
         </h2>
         
         <p className="mt-3 text-slate-600 max-w-3xl text-sm sm:text-base leading-relaxed">
-          Em 1984, Amir Klink atravessou o Atlântico a remo sozinho em 100 dias. Em alto-mar, tempestades e ondas gigantes são inevitáveis. A maioria das embarcações tenta ser forte e rígida para nunca capotar — mas quando a onda vem, elas quebram ou afundam. Amir mudou o foco: <strong>em vez de tentar não virar, ele projetou um barco feito para desvirar sozinho.</strong>
+          Em 1984, Amyr Klink atravessou o Atlântico a remo sozinho em 100 dias. Em alto-mar, tempestades e ondas gigantes são inevitáveis. A maioria das embarcações tenta ser forte e rígida para nunca capotar — mas quando a onda vem, elas quebram ou afundam. Amyr mudou o foco: <strong>em vez de tentar não virar, ele projetou um barco feito para desvirar sozinho.</strong>
         </p>
 
         {/* Tab Selector */}
@@ -176,7 +176,7 @@ export const AmirKlinkBoatSimulator: React.FC = () => {
                     }`}
                   >
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-bold text-sky-600 uppercase">Opção B (Amir Klink)</span>
+                      <span className="text-xs font-bold text-sky-600 uppercase">Opção B (Amyr Klink)</span>
                       {boatType === 'joao_bobo' && <span className="w-2 h-2 rounded-full bg-sky-500 animate-ping"></span>}
                     </div>
                     <div className="font-bold text-slate-900 text-sm">Barco "João Bobo"</div>
@@ -366,7 +366,7 @@ export const AmirKlinkBoatSimulator: React.FC = () => {
                       )}
                     </div>
                   ) : (
-                    /* Amir Klink's Self-Righting Boat (João Bobo) */
+                    /* Amyr Klink's Self-Righting Boat (João Bobo) */
                     <div className="relative">
                       <svg width="200" height="120" viewBox="0 0 200 120" fill="none">
                         {/* Rounded Hull (Aerodynamic / Hydrodynamic) */}
@@ -413,7 +413,7 @@ export const AmirKlinkBoatSimulator: React.FC = () => {
               </div>
               <h3 className="font-bold text-base text-slate-900">Centro de Gravidade Baixo (Lastro)</h3>
               <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-                Amir colocou o peso principal do barco no fundo da quilha (com baterias e suprimentos pesados). Quando o barco vira de ponta-cabeça, a gravidade puxa esse peso de volta para baixo instantaneamente.
+                Amyr colocou o peso principal do barco no fundo da quilha (com baterias e suprimentos pesados). Quando o barco vira de ponta-cabeça, a gravidade puxa esse peso de volta para baixo instantaneamente.
               </p>
             </div>
 

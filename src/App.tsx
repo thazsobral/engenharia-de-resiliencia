@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header } from './components/Header';
-import { AmirKlinkBoatSimulator } from './components/AmirKlinkBoatSimulator';
+import { AmyrKlinkBoatSimulator } from './components/AmyrKlinkBoatSimulator';
 import { ChaosEngineeringSimulator } from './components/ChaosEngineeringSimulator';
 import { ComparisonAndQuiz } from './components/ComparisonAndQuiz';
 import { GlossaryModal } from './components/GlossaryModal';
@@ -34,8 +34,8 @@ export default function App() {
       />
 
       <main>
-        {/* Module 1: Amir Klink & The Self-Righting Boat */}
-        <AmirKlinkBoatSimulator />
+        {/* Module 1: Amyr Klink & The Self-Righting Boat */}
+        <AmyrKlinkBoatSimulator />
 
         {/* Module 2: Chaos Engineering & Cloud Resiliency */}
         <ChaosEngineeringSimulator />
